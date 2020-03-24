@@ -1,0 +1,79 @@
+@uri = http://localhost:45321/
+###  查询用户列表
+GET {{uri}}api/islogged
+
+###
+GET {{uri}}api/myinfo
+
+
+### 获取本地records
+GET {{uri}}api/record
+
+
+### 升级本地records
+GET {{uri}}api/updaterecord
+
+
+
+
+
+###
+GET {{uri}}api/person/2010WANG53
+
+###
+GET {{uri}}api/person/2019YANG10
+
+
+###
+GET {{uri}}api/search/users/jiayu
+
+###
+GET {{uri}}api/search/competition/wuhan
+
+###
+GET {{uri}}api/search/rule/1a4
+
+###
+GET {{uri}}api/competition/WuhanAutumn2019
+
+###
+GET {{uri}}api/competition/WuhanAutumn2019/result
+
+###
+GET {{uri}}api/competition/WuhanAutumn2019/schedule
+
+###
+GET {{uri}}api/competition/WuhanAutumn2019/competitior
+
+###
+GET {{uri}}api/competition/WuhanAutumn2019/registration
+
+###
+GET {{uri}}api/competition/WuhanAutumn2019/wcifpublic
+
+###
+GET {{uri}}api/search/rule/1e
+
+###
+GET {{uri}}api/setlogged
+
+###
+GET {{uri}}api/setunlogged
+
+
+
+
+
+###
+POST {{uri}}api/refresstoken
+
+
+
+Name: Yikang Chen (陈毅康)
+Wcaid: 2016CHEY12
+
+Item:3x3x3 FM
+
+Single:34 -WR1524-CR405-NR140
+
+Average:47.00-NR266-CR637-WR1990

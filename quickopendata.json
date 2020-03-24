@@ -1,0 +1,62 @@
+{
+    "bd":{
+        "name" : "baidu",
+        "title": "百度搜索",
+        "icon" : "./img/open/baidu.jpg",
+        "url": "https://www.baidu.com/s?ie=UTF-8&wd={query}"
+    },
+    "bdi": {
+        "name" : "baidu",
+        "title": "百度图片搜索",
+        "icon" : "./img/open/baidu.jpg",
+        "url": "https://image.baidu.com/search/index?tn=baiduimage&word={query}"
+    },
+    "bi":{
+        "name" : "bilibili",
+        "title": "哔哩哔哩搜索",
+        "icon" : "./img/open/bilibili.jpg",
+        "url": "https://search.bilibili.com/all?keyword={query}"
+    },
+    "blog": {
+        "name" : "blog",
+        "title": "进入我的博客",
+        "icon" : "./img/open/blog.jpg",
+        "url": "https://kirahan.github.io"
+    },
+    "git": {
+        "name" : "git",
+        "title": "github搜索",
+        "icon" : "./img/open/git.jpg",
+        "url": "https://github.com/search?q={query}"
+    },
+    "jd":{
+        "name" : "jd",
+        "title": "京东搜索",
+        "icon" : "./img/open/jd.jpg",
+        "url": "https://search.jd.com/Search?enc=utf-8&keyword={query}"
+    },
+    "tb":{
+        "name" : "tb",
+        "title": "淘宝搜索",
+        "icon" : "./img/open/tb.jpg",
+        "url": "http://s.taobao.com/search?oe=utf-8&f=8&q={query}"
+    },
+    "zh": {
+        "name" : "zhihu",
+        "title": "知乎搜索",
+        "icon" : "./img/open/zhihu.jpg",
+        "url": "https://www.zhihu.com/search?type=content&q={query}"
+    },
+    "dbb": {
+        "name" : "dbbook",
+        "title": "豆瓣读书搜索",
+        "icon" : "./img/open/dbbook.jpg",
+        "url": "https://search.douban.com/book/subject_search?search_text={query}"
+    },
+    "dbm": {
+        "name" : "dbmovie",
+        "title": "豆瓣电影搜索",
+        "icon" : "./img/open/dbmovie.jpg",
+        "url": "https://search.douban.com/movie/subject_search?search_text={query}"
+    }
+}

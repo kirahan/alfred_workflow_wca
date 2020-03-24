@@ -1,0 +1,26 @@
+{
+  "name": "alfred-wca-workflow",
+  "version": "1.0.0",
+  "description": "an alfred workflow for wca",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "wca"
+  ],
+  "author": "kirahan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "sharp": "^0.25.1"
+  }
+}

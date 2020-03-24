@@ -1,0 +1,21 @@
+{
+  "name": "alfred-wca-workflow-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "author": "kirahan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "nodemonConfig": {
+    "ignore": ["db/*"]
+  }
+}
